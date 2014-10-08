@@ -8,14 +8,11 @@ class Student
 	
 	def award name
 		@awards << name 
+    self.class.send(:define_method,"has_#{name}?") { @awards.include? name }
 	end
 
-  def method_missing name
-    return true if awards.include? name.chopup 
-  end
-
-  def respond_to_missing? name, include_private = false
-    return true if name.to_s.start_with? "has" 
+  def method_missing name, *args
+    return false if name.match(/^has_.+?\?$/)
     super
   end
 
