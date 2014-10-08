@@ -1,0 +1,21 @@
+[31mF[0m[31mF[0m[32m.[0m[32m.[0m
+
+Failures:
+
+  1) Student does not have an award
+     [31mFailure/Error: expect(student).not_to have_unixoid[0m
+     [31m  expected #<Student:0x00000101fa15c0> to respond to `has_unixoid?`[0m
+     [36m# ./spec/student_spec.rb:7:in `block (2 levels) in <top (required)>'[0m
+
+  2) Student can have badges awarded
+     [31mFailure/Error: expect(student).to have_unixoid[0m
+     [31m  expected #<Student:0x00000101fb1c40> to respond to `has_unixoid?`[0m
+     [36m# ./spec/student_spec.rb:12:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.00287 seconds (files took 0.08295 seconds to load)
+[31m4 examples, 2 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/student_spec.rb:6[0m [36m# Student does not have an award[0m
+[31mrspec ./spec/student_spec.rb:10[0m [36m# Student can have badges awarded[0m
