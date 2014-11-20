@@ -11,3 +11,4 @@ A programme that writes its own methods allowing to check if a students has a sp
 
 Pair-programmed with [Spike Lindsey] as an experiment in Metaprogramming. Written in Ruby and TDDed using Rspec.
 
+[Spike Lindsey]: https://github.com/spike01
