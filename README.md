@@ -5,7 +5,7 @@ Metaprogramming
 
 A programme that writes its own methods allowing to check if a students has a specific badge, and that overwrites method_missing in the process.
 
-![META](http://ENTER_URL)
+![META](https://github.com/binaryberry/Metaprogramming/blob/master/meta.jpeg)
 
 ## How was it done?
 
