@@ -3,7 +3,7 @@ Metaprogramming
 
 ## What is it?
 
-A programme that writes its own methods allowing to check if a students has a specific badge, and that overwrites method_missing in the process.
+A programme that writes its own methods allowing to check if a student has a specific badge, and that overwrites method_missing in the process.
 
 ![META](https://github.com/binaryberry/Metaprogramming/blob/master/meta.jpeg)
 
